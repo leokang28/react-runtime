@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "babel react.js -d dist",
+    "build:did": "babel didact.js -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15"
+  }
+}
